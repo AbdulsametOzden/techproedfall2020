@@ -29,7 +29,12 @@ public class MethodCreation01 {
 		 a)Use different numbers of parameters 
 		 b)Make the data types of parameters different
 		 c)If the data types of parameters are different, change the order
-		 */
+		*/
+		
+		/*
+		 If you create methods with same name by changing parameters, it is called 
+		 "Method Overloading"
+		*/
 		
 	}
 	

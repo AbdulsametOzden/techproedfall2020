@@ -15,7 +15,7 @@ public class MethodCreation01 {
 	/*
 	 You can use same names for the methods by using the followings;
 	 1)Change the number of parameters
-	 2)Change the data type of the parameters
+	 2)Change the data types of the parameters
 	 3)If the data types are different, change the order of parameters
 	*/
 	
@@ -26,9 +26,7 @@ public class MethodCreation01 {
 	public static void main(String[] args) {
 		
 		add(13.0,4.0);//17.0
-		
-		add(2, 3, 4);//9.0
-		
+		add(2, 3, 4);//9.0	
 		multiply(4, 3, 0.5);//6.0
 
 	}

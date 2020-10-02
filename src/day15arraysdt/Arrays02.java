@@ -50,7 +50,7 @@ public class Arrays02 {
 		}
 		System.out.println("The number of the character: " + counter);
 		
-		
+		//Type a program to count the number of different characters in the String "s" 
 
 	}
 

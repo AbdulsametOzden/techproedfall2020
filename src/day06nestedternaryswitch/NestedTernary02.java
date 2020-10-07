@@ -23,6 +23,8 @@ public class NestedTernary02 {
 	    String result = pwd.length()==8 && pwd.charAt(0)>='0' && pwd.charAt(0)<='9' ? "The password is valid" : 
 	    	            pwd.charAt(pwd.length()-1)=='Z' ? "Not secure but acceptable" : "The password is not valid";
 	    System.out.println(result);
+	    
+	    scan.close();
 
 	}
 

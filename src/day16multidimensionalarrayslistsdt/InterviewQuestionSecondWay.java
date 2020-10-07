@@ -26,7 +26,7 @@ public class InterviewQuestionSecondWay {
                 counter=0;
             }
             if(i==ch.length-1) {
-                System.out.println("The number of " + ch[i] + "is: " +(counter +1));
+                System.out.println("The number of " + ch[i] + " is: " +(counter +1));
             }
         }
 		

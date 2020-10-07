@@ -17,9 +17,9 @@ public class Lists01 {
 		//How to create a list
 		
 		//1.Way:
-		ArrayList<Integer> list1 = new ArrayList<>();
+		//ArrayList<Integer> list1 = new ArrayList<>();
 		//2.Way:
-		ArrayList<Integer> list2 = new ArrayList<Integer>();
+		//ArrayList<Integer> list2 = new ArrayList<Integer>();
 		//3.Way:The best to use
 		//Note: Do not use "List<>" on the right, Java complains
 		List<Integer> list3 = new ArrayList<>();

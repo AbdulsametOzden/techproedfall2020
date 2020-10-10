@@ -3,6 +3,7 @@ package day18passbyvaluepassbyreferencedatetime;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 
 public class DateTime01 {
@@ -49,5 +50,10 @@ public class DateTime01 {
 		
 		DateTimeFormatter dtf04 = DateTimeFormatter.ofPattern("HH:mm");
 		System.out.println(dtf04.format(currentTime02.plusHours(3)));//15:55	
+		
+		//How to get local time of any city or country
+		LocalTime localTime = LocalTime.now(ZoneId.of("Europe/Moscow"));
+		System.out.println(localTime);
+
 	}
 }

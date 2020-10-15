@@ -1,4 +1,4 @@
-package day23overriding;
+package day23overridingdt;
 
 class A{
     public A(int i){

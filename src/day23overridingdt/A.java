@@ -28,8 +28,7 @@ class C extends B{
 }
 class MainClass{
     public static void main(String[] args){
-    	//Changing data types does not affect constructor usage
-    	
+    	//Changing data types does not affect constructor usage 	
         B obj = new C();
         A obj2 = new C();
         C obj3 = new C();

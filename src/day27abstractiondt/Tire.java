@@ -1,5 +1,7 @@
 package day27abstractiondt;
 
-public class Tire {
-
+public abstract class Tire extends Honda {
+	
+	public abstract void unused();
+	
 }
